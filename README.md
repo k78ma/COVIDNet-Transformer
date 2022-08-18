@@ -55,7 +55,11 @@ The best results in each class are bolded.*
 ![image](https://user-images.githubusercontent.com/77073162/181854254-f802c1f5-7807-45be-8947-38d24714e924.png)
 
 # Training Instructions
+For singular finetuning, run `finetune.py` | For k-fold finetuning, run `finetune_kfolds.py`
 
+For arguments, see `training_args.py` for further clarification. Here, you can specify the model architecture (ResNet, DenseNet, Swin-B/Swin-T/Swin-S/Swin-L, ConvNeXt)
+
+To calculate trust scores, see `get_trust_score.py`. This script uses its own arguments rather than `training_args.py`. 
 # Other
 
 ### Contact
